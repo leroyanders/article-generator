@@ -41,7 +41,7 @@ After making changes run next command:
 - set email or username
 - set password
 
-## 🚀 There's we go!
+## 🚀 There we go!
 ``` python manage.py runserver ```
 
 > open browser by default: localhost:8000
