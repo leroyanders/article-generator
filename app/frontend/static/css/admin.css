@@ -1,0 +1,3 @@
+textarea[name="text_content"] {
+    min-height: 500px !important;
+}

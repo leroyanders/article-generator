@@ -1,0 +1,13 @@
+.field-get_title{
+    width: 12%;
+}
+.field-get_query{
+    white-space: nowrap;
+}
+.field-completed img{
+    display: flex;
+    margin: auto;   
+}
+.field-get_content{
+    width: 40%;
+}

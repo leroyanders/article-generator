@@ -1,0 +1,18 @@
+{
+    "sourceFile": "templates/header/main.tpl",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1645378230255,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1645378230255,
+            "name": "Commit-0",
+            "content": "<div class=\"site-mobile-menu site-navbar-target\">\n    <div class=\"site-mobile-menu-header\">\n        <div class=\"site-mobile-menu-close mt-3\">\n            <span class=\"icon-close2 js-menu-toggle\"></span>\n        </div>\n    </div>\n    <div class=\"site-mobile-menu-body\"></div>\n</div>\n\n\n<div class=\"header-top\">\n    <div class=\"container\">\n        <div class=\"row align-items-center\">\n            <div class=\"col-12 col-lg-6 d-flex\">\n                <a href=\"/\" class=\"site-logo\">\n                    {$app_name}\n                </a>\n                <a href=\"#\" class=\"ml-auto d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black\">\n                    <span class=\"icon-menu h3\"></span>\n                </a>\n            </div>\n            <div class=\"col-12 col-lg-6 ml-auto d-flex\">\n                <div class=\"ml-md-auto top-social d-none d-lg-inline-block\">\n                    <a href=\"#\" class=\"d-inline-block p-3\"><span class=\"icon-facebook\"></span></a>\n                    <a href=\"#\" class=\"d-inline-block p-3\"><span class=\"icon-twitter\"></span></a>\n                    <a href=\"#\" class=\"d-inline-block p-3\"><span class=\"icon-instagram\"></span></a>\n                </div>\n                <form method=\"post\" action=\"/search\" class=\"search-form d-inline-block\">\n                    <div class=\"d-flex\">\n                        <input type=\"text\" class=\"form-control\" placeholder=\"Search...\" name=\"q\">\n                        <button type=\"submit\" class=\"btn btn-secondary\">\n                            <span class=\"icon-search\"></span>\n                        </button>\n                        <select data-placeholder=\"Choose a Language...\" class=\"language-toggle\">\n                            <option value=\"EN\" selected>EN</option>\n                            <option value=\"RU\">RU</option>\n                            <option value=\"DE\">DE</option>\n                        </select>\n                    </div>\n                </form>\n            </div>\n            <div class=\"col-6 d-block d-lg-none text-right\"></div>\n        </div>\n    </div>\n\n\n    <div class=\"site-navbar py-2 js-sticky-header site-navbar-target d-none pl-0 d-lg-block\" role=\"banner\">\n        <div class=\"container\">\n            <div class=\"d-flex align-items-center\" style=\"width: fit-content; margin: auto;\">\n                <div class=\"mr-auto\" style=\"width: 100%\">\n                    <nav class=\"site-navigation position-relative text-right d-flex\" role=\"navigation\">\n                        <ul class=\"site-menu main-menu js-clone-nav mr-auto d-none pl-0 d-lg-block\">\n                            {foreach from=$navtabs item=arr}\n                                <li>\n                                    <a href=\"/category/{$arr['id']}\" class=\"nav-link text-left\">\n                                        {translate}{$arr['unique_name']}{/translate}\n                                    </a>\n                                </li>\n                            {/foreach}\n                        </ul>\n                    </nav>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
+        }
+    ]
+}
