@@ -41,8 +41,15 @@ After making changes run next command:
 - set email or username
 - set password
 
+3. If you gonna edit template:
+
+- go to template folder ``` $ cd frontend ```
+- run command ``` $ yarn install ```
+
 ## 🚀 There we go!
-``` python manage.py runserver ```
+> Make sure you in root/app folder and then run:
+
+``` $ python manage.py runserver ```
 
 > open browser by default: localhost:8000
 
