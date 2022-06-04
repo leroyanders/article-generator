@@ -1,3 +1,4 @@
 *.html linguist-detectable=false
 *.css linguist-detectable=false
 *.smarty linguist-detectable=false
+*.php linguist-detectable=false
