@@ -52,5 +52,3 @@ After making changes run next command:
 ``` $ python manage.py runserver ```
 
 > open browser by default: localhost:8000
-
-## Enjoy :)
