@@ -1,23 +1,27 @@
-# Let's create your own ArticleGenerator site with unique posts and manage them(Django + React.JS)
-*This project was created with Django, Google API and SpinRewriter Api. That project provides you to scrap aricles from sites via Google Search, provides you tranlate them and make unique by SpinRewriter.*
+# Python article crawler and React Blog Generator.
+*This project was created with Django, Google API and SpinRewriter Api. Provides you to crawle aricles via Google Search API, tranlate them and unique by SpinRewriter.*
 
-### ♻️ Create new environment folder and activate it
-``` $ python3 -m venv environment && source environment/bin/activate ```
+# Create new environment folder and activate it
+``` 
+$ python3 -m venv <name> && source <name>/bin/activate 
+```
 
 After that install all dependencies
-``` $ pip install -r requirements.txt ```
+``` 
+$ pip install -r requirements.txt 
+```
 
-## 🌱 Installation
+# Installation
 1. Firstly you must edit app settings and database setting in *app/app/settings.py*
 
-```
+```python
   DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'database_name',
-        'USER': 'database_username',
-        'PASSWORD': 'your_password',
-        'HOST': 'database_hostname',
+        'NAME': '<database_name>',
+        'USER': '<database_username>',
+        'PASSWORD': '<your_password>',
+        'HOST': '<database_hostname>',
         'PORT': '3306',
     }
   }
@@ -36,19 +40,30 @@ After making changes run next command:
 ```
 2. Next we need to create admin-user with next command:
 
-``` $ python manage.py createsuperuser ```
+``` 
+$ python manage.py createsuperuser 
+```
 
 - set email or username
 - set password
 
-3. If you gonna edit template:
 
-- go to template folder ``` $ cd frontend ```
-- run command ``` $ yarn install ```
+3. Manage React template:
 
-## 🚀 There we go!
-> Make sure you in root/app folder and then run:
+Go to template folder 
+``` 
+$ cd ./frontend 
+```
+Run command below:
+``` 
+$ yarn install 
+```
 
-``` $ python manage.py runserver ```
+# Run application
+> Make sure you in main folder and run:
+
+``` 
+$ python manage.py runserver 
+```
 
 > open browser by default: localhost:8000
