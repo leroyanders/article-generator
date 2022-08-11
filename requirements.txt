@@ -2,7 +2,6 @@ asgiref==3.5.1
 attrs==21.4.0
 Automat==20.2.0
 beautifulsoup4==4.9.3
-bing-image-urls==0.1.4
 cachetools==5.0.0
 certifi==2021.10.8
 cffi==1.15.0
