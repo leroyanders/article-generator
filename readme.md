@@ -2,13 +2,13 @@
 *This project was created with Django, Google API and SpinRewriter Api. Provides you to crawle aricles via Google Search API, tranlate them and unique by SpinRewriter.*
 
 # Create new environment folder and activate it
-``` 
-$ python3 -m venv <name> && source <name>/bin/activate 
+```zsh 
+python3 -m venv <name> && source <name>/bin/activate 
 ```
 
 After that install all dependencies
-``` 
-$ pip install -r requirements.txt 
+```zsh 
+pip3 install -r requirements.txt 
 ```
 
 # Installation
@@ -34,14 +34,14 @@ $ pip install -r requirements.txt
 
 After making changes run next command:
 ```
-  $ cd app && python manage.py migrate
-  $ python manage.py makemigrations frontend
-  $ python manage.py migrate frontend
+  cd app && python3 manage.py migrate
+  python3 manage.py makemigrations frontend
+  python3 manage.py migrate frontend
 ```
 2. Next we need to create admin-user with next command:
 
-``` 
-$ python manage.py createsuperuser 
+```zsh 
+python manage.py createsuperuser 
 ```
 
 - set email or username
@@ -51,19 +51,19 @@ $ python manage.py createsuperuser
 3. Manage React template:
 
 Go to template folder 
-``` 
-$ cd ./frontend 
+```zsh 
+cd ./frontend 
 ```
 Run command below:
-``` 
-$ yarn install 
+```zsh 
+yarn install 
 ```
 
 # Run application
 > Make sure you in main folder and run:
 
-``` 
-$ python manage.py runserver 
+```zsh 
+python3 manage.py runserver 
 ```
 
 > open browser by default: localhost:8000
